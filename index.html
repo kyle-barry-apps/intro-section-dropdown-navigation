@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
+
+    <title>Snap</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo"><a href="#">snap</a></div>
+      <ul class="first-nav-list">
+        <img
+          class="close-menu"
+          src="./images/icon-close-menu.svg"
+          alt="close menu icon"
+        />
+        <li class="features" data-dropdown>
+          <a data-dropdown-button class="features-link" href="#"
+            >Features
+            <img
+              data-dropdown-button
+              class="features-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="arrow down icon"
+          /></a>
+
+          <div class="features-dropdown">
+            <div>
+              <img src="./images/icon-todo.svg" alt="icon todo list" />
+              <a href="#">Todo List</a>
+            </div>
+            <div>
+              <img src="./images/icon-calendar.svg" alt="todo list icon" />
+              <a href="#">Calendar</a>
+            </div>
+            <div>
+              <img src="./images/icon-reminders.svg" alt="todo list icon" />
+              &nbsp; <a href="#">Reminders</a>
+            </div>
+            <div>
+              <img src="./images/icon-planning.svg" alt="todo list icon" />
+              <a href="#">Planning</a>
+            </div>
+          </div>
+        </li>
+        <li class="company" data-dropdown="">
+          <a data-dropdown-button class="company-link" href="#"
+            >Company
+            <img
+              data-dropdown-button
+              class="company-arrow"
+              src="./images/icon-arrow-down.svg"
+              alt="arrow down icon"
+          /></a>
+
+          <div class="company-dropdown">
+            <a href="#">History</a>
+            <a href="#">Our Team</a>
+            <a href="#">Blog</a>
+          </div>
+        </li>
+        <li class="first-nav-item"><a href="#">Careers</a></li>
+        <li class="first-nav-item"><a href="#">About</a></li>
+        <div class="second-container">
+          <a class="login-btn" href="#">Login</a>
+          <a class="register-btn register-link" href="#">Register</a>
+        </div>
+      </ul>
+
+      <ul class="second-nav-list">
+        <li><a href="#">Login</a></li>
+        <li><a class="register-link" href="#">Register</a></li>
+      </ul>
+
+      <div class="burger">
+        <img
+          class="burger-menu active"
+          src="./images/icon-menu.svg"
+          alt="hamburger menu"
+        />
+      </div>
+    </nav>
+
+    <main class="main-container">
+      <div class="main-text">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="main-button">Learn more</button>
+        <div class="brands">
+          <img src="./images/client-databiz.svg" alt="databiz" />
+          <img src="./images/client-audiophile.svg" alt="databiz" />
+          <img src="./images/client-meet.svg" alt="databiz" />
+          <img src="./images/client-maker.svg" alt="databiz" />
+        </div>
+      </div>
+
+      <div class="image-section">
+        <img
+          class="hero-desktop"
+          src="./images/image-hero-desktop.png"
+          alt="hero image"
+        />
+        <img
+          class="hero-mobile"
+          src="./images/image-hero-mobile.png"
+          alt="hero image"
+        />
+      </div>
+    </main>
+
+    <!-- Features Company Careers About Login Register Make remote work Get your team
+    in sync, no matter your location. Streamline processes, create team rituals,
+    and watch productivity soar. Learn more -->
+  </body>
+</html>
