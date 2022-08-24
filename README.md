@@ -1,4 +1,4 @@
-[LIVE SITE]([url](https://kyle-barry-apps.github.io/intro-section-dropdown-navigation/))
+LIVE SITE: https://kyle-barry-apps.github.io/intro-section-dropdown-navigation/
 
 # Home page sample with dropdown menus and responsive design
 
